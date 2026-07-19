@@ -7,8 +7,8 @@ Qualtrics.SurveyEngine.addOnload(function () {
   var frame = document.getElementById("free-saturday-frame");
   var status = document.getElementById("free-saturday-status");
 
-  var APP_URL = "https://YOUR-USERNAME.github.io/a-free-saturday/";
-  var APP_ORIGIN = "https://YOUR-USERNAME.github.io";
+  var APP_URL = "https://liqiantay.github.io/a-free-saturday/";
+  var APP_ORIGIN = "https://liqiantay.github.io";
   var MAX_CHUNKS = 10;
   var CHUNK_SIZE = 6000;
   var completed = false;
