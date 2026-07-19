@@ -1,0 +1,27 @@
+{
+  "title":"A little time to yourself",
+  "instructions":"Sam is running late. Explore the room and find a few ways to pass the time.",
+  "requiredInformationInteractions":6,
+  "claimPresentation":{"label":"Survey finding"},
+  "avatar":{"startX":50,"startY":88,"color":"#2f5d62"},
+  "movementObstacles":[{"id":"coffee-table","x":35,"y":55,"w":27,"h":27,"margin":2}],
+  "objects":[
+    {"id":"phone","kind":"information","label":"Phone","prompt":"Check phone","x":5,"y":66,"w":13,"h":15,"targetX":18,"targetY":78,"format":"conversation","source":"SATURDAY GROUP · MAYA","headline":"Maya shared something"},
+    {"id":"television","kind":"information","label":"Television","prompt":"Turn on television","x":77,"y":18,"w":19,"h":42,"targetX":73,"targetY":62,"format":"television transcript","source":"WEEKEND DESK · LIVE","headline":"The weekend briefing"},
+    {"id":"newspaper","kind":"information","label":"Newspaper","prompt":"Read newspaper","x":37,"y":51,"w":10,"h":13,"targetX":41,"targetY":85,"format":"article","source":"THE SATURDAY PAPER · EVERYDAY","headline":"The habits hiding in plain sight"},
+    {"id":"laptop","kind":"information","label":"Laptop","prompt":"Open laptop","x":62,"y":18,"w":12,"h":20,"targetX":64,"targetY":48,"format":"article","source":"FIELD NOTES · 4 MIN READ","headline":"A notebook of everyday behaviour"},
+    {"id":"magazine","kind":"information","label":"Magazine","prompt":"Browse magazine","x":59,"y":75,"w":12,"h":15,"targetX":65,"targetY":73,"format":"article","source":"COMMON GROUND · AUGUST","headline":"The routines that shape a day"},
+    {"id":"speaker","kind":"information","label":"Smart speaker","prompt":"Play news briefing","x":85,"y":51,"w":10,"h":14,"targetX":78,"targetY":68,"format":"conversation","source":"THE LISTENING ROOM · PLAYING","headline":"Why mundane behaviour matters"},
+    {"id":"mail","kind":"information","label":"Mail","prompt":"Open mail","x":47,"y":51,"w":12,"h":13,"targetX":50,"targetY":85,"format":"advertisement","source":"THE USEFUL MINUTE · WEEKLY LETTER","headline":"One finding for the weekend"},
+    {"id":"package","kind":"information","label":"Snack package","prompt":"Inspect package","x":75,"y":43,"w":8,"h":12,"targetX":74,"targetY":64,"format":"product information","source":"BACK OF PACK · EVERYDAY INDEX","headline":"A small fact while you snack"},
+    {"id":"book","kind":"information","label":"Book","prompt":"Take a book","x":47,"y":8,"w":13,"h":27,"targetX":51,"targetY":43,"format":"article","source":"WEEKEND READER · CHAPTER TWO","headline":"What people do without thinking"},
+    {"id":"tablet","kind":"information","label":"Tablet","prompt":"Pick up tablet","x":5,"y":52,"w":14,"h":12,"targetX":20,"targetY":68,"format":"phone post","source":"DAYLIGHT · FOR YOU","headline":"A curious fact from recent research"},
+    {"id":"plant","kind":"filler","label":"Plant","prompt":"Check plant","x":22,"y":17,"w":12,"h":20,"targetX":34,"targetY":43,"response":"The soil is still damp. The plant can wait another day."},
+    {"id":"window","kind":"filler","label":"Window","prompt":"Look outside","x":1,"y":4,"w":19,"h":35,"targetX":25,"targetY":43,"response":"A cyclist passes below. The trees move slightly in the afternoon breeze."},
+    {"id":"lamp","kind":"filler","label":"Lamp","prompt":"Adjust lamp","x":16,"y":17,"w":8,"h":24,"targetX":29,"targetY":45,"response":"The room is bright enough without it, so you leave the lamp off."},
+    {"id":"photograph","kind":"filler","label":"Photograph","prompt":"Look at photograph","x":23,"y":8,"w":9,"h":11,"targetX":35,"targetY":39,"response":"A familiar landscape, taken on a clear day several years ago."},
+    {"id":"cushion","kind":"filler","label":"Cushion","prompt":"Straighten cushion","x":14,"y":39,"w":12,"h":17,"targetX":28,"targetY":61,"response":"You move the cushion into the corner of the sofa."},
+    {"id":"clock","kind":"filler","label":"Clock","prompt":"Check time","x":82,"y":6,"w":12,"h":14,"targetX":75,"targetY":44,"response":"There is still plenty of time before Sam arrives."},
+    {"id":"mug","kind":"filler","label":"Mug","prompt":"Pick up mug","x":42,"y":60,"w":8,"h":12,"targetX":46,"targetY":85,"response":"The tea has gone lukewarm, but it is still drinkable."}
+  ]
+}

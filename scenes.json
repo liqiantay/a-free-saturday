@@ -1,0 +1,60 @@
+{
+  "scenes": [
+    {
+      "id":"morning-home","time":"8:12 AM","title":"A slow start","intro":"Nothing is on your calendar. Two overnight notifications are waiting.","ambient":"Clear skies · 18°","media":{"emoji":"☀️","alt":"Clear morning weather"},
+      "choices":[
+        {"id":"group-chat","label":"Maya: Anyone doing anything today?","object":"Messages","format":"conversation","source":"SATURDAY GROUP · 4 new messages","headline":"Saturday group","beforeClaim":"Maya: Morning! I fell into a survey rabbit hole last night. Apparently","afterClaim":"Alex: That is incredibly specific. Also, is anyone free for lunch?","response":"You replied “Maybe—keep me posted.”","continueLabel":"Send reply"},
+        {"id":"morning-brief","label":"Your Saturday morning briefing is ready","object":"News","format":"phone post","source":"MORNING BRIEF · 2 MIN READ","headline":"Five things for a quiet Saturday","beforeClaim":"Between the weather and local transport updates, the briefing notes that","afterClaim":"The final card lists three free events happening around the city today.","response":"Morning Brief was added to your reading history.","continueLabel":"Mark as read"}
+      ]
+    },
+    {
+      "id":"breakfast","time":"8:45 AM","title":"Breakfast","intro":"You have time to make something or head to a nearby café.","ambient":"Home · Kitchen","media":{"emoji":"🥞","alt":"Breakfast suggestions"},
+      "choices":[
+        {"id":"saved-recipe","label":"Recipes: Your saved pancakes take 20 minutes","object":"Recipes","format":"product information","source":"SAVED RECIPE · WEEKEND PANCAKES","headline":"One-bowl pancakes","beforeClaim":"The recipe editor recommends resting the batter and adds that","afterClaim":"The ingredient list and a six-step method appear below.","response":"One-bowl pancakes was added to Today’s cooking activity.","continueLabel":"Start cooking"},
+        {"id":"cafe-map","label":"Maps: Linden Corner is quiet right now","object":"Maps","format":"advertisement","source":"LINDEN CORNER · 4.6 ★ · 7 MIN AWAY","headline":"A table without the wait","beforeClaim":"A highlighted review praises the breakfast menu and mentions that","afterClaim":"The live panel shows plenty of tables and no reported wait.","response":"Walking directions to Linden Corner were saved to Recent Trips.","continueLabel":"Get directions"}
+      ]
+    },
+    {
+      "id":"leaving-home","time":"9:38 AM","title":"Getting across town","intro":"Your phone has noticed two reasonable routes toward the centre.","ambient":"Light traffic · No rain expected","media":{"emoji":"🗺️","alt":"Map route suggestions"},
+      "choices":[
+        {"id":"transit-alert","label":"Transit: Bus 24 arrives in 4 minutes","object":"Transit","format":"television transcript","source":"CITY TRANSIT · ROUTE 24","headline":"Service update","beforeClaim":"The onboard-information preview includes a short community survey: “","afterClaim":"” Route 24 is otherwise running to schedule.","response":"A Route 24 mobile ticket was added to Wallet.","continueLabel":"Use mobile ticket"},
+        {"id":"walking-route","label":"Maps: Riverside walking route adds 12 minutes","object":"Maps","format":"article","source":"MAPS · SCENIC ROUTE","headline":"Walk via Riverside Park","beforeClaim":"The route guide describes the gardens and notes that","afterClaim":"The path is mostly flat and passes two places marked as good viewpoints.","response":"Riverside Park was added to Recent Trips and today’s step count increased.","continueLabel":"Start walking route"}
+      ]
+    },
+    {
+      "id":"morning-activity","time":"10:05 AM","title":"Something to explore","intro":"Local Guide has two nearby suggestions based on where you arrived.","ambient":"Central district · 19°","media":{"emoji":"📍","alt":"Nearby activity suggestions"},
+      "choices":[
+        {"id":"market-guide","label":"Local Guide: Riverside Market is open","object":"Local Guide","format":"advertisement","source":"NEAR YOU · RIVERSIDE MARKET","headline":"Saturday stalls by the river","beforeClaim":"The guide highlights a tea stall whose profile says","afterClaim":"The market page also lists live music at 11 and a bakery near the east entrance.","response":"Riverside Market was saved to Places Visited.","continueLabel":"Save and navigate"},
+        {"id":"gallery-ticket","label":"Tickets: Free entry at the East Room Gallery","object":"Tickets","format":"article","source":"EAST ROOM · TODAY","headline":"Pictures of ordinary life","beforeClaim":"The digital exhibition guide introduces the photographer’s interest in routines, observing that","afterClaim":"Free timed entry is available for the next hour.","response":"A 10:20 gallery pass was added to Wallet.","continueLabel":"Add free ticket"}
+      ]
+    },
+    {
+      "id":"lunch","time":"12:24 PM","title":"Lunch nearby","intro":"You check what is close before deciding where to stop.","ambient":"Central district · Moderately busy","media":{"emoji":"🍜","alt":"Nearby lunch options"},
+      "choices":[
+        {"id":"lunch-reviews","label":"Nearby: Mason’s Deli has no wait","object":"Nearby","format":"phone post","source":"MASON’S DELI · 4.7 ★ · 218 REVIEWS","headline":"Popular nearby","beforeClaim":"A recent reviewer recommends the window seats and writes, “The menu has a tiny fact saying","afterClaim":"” Other reviews repeatedly mention the soup and lemon cake.","response":"Mason’s Deli was added to Recent Places.","continueLabel":"View walking directions"},
+        {"id":"lunch-message","label":"Alex: Still want to get lunch?","object":"Messages","format":"conversation","source":"ALEX · ACTIVE NOW","headline":"Lunch?","beforeClaim":"Alex: I can meet near the park. Also, our work newsletter claims","afterClaim":"Alex: No idea why they included that. I can be there in fifteen.","response":"You shared your location with Alex for one hour.","continueLabel":"Share location"}
+      ]
+    },
+    {
+      "id":"afternoon-activity","time":"2:10 PM","title":"An open afternoon","intro":"Two things you saved earlier are available now.","ambient":"Calendar free until evening","media":{"emoji":"🎟️","alt":"Afternoon entertainment options"},
+      "choices":[
+        {"id":"matinee","label":"Cinema: The 2:25 matinee has seats","object":"Cinema","format":"television transcript","source":"PALACE CINEMA · PREVIEW","headline":"The Things We Do","beforeClaim":"Over shots of kitchens and city streets, the trailer narrator says, “","afterClaim":"” The documentary starts in fifteen minutes.","response":"A matinee ticket and digital receipt were added to Wallet.","continueLabel":"Book seat E8"},
+        {"id":"saved-reading","label":"Reader: Continue “Why small habits stick”","object":"Reader","format":"article","source":"EVERYDAY · 6 MIN LEFT","headline":"Why small habits stick","beforeClaim":"A sidebar summarising a recent survey reports that","afterClaim":"The article then asks three people which routines make a place feel like home.","response":"The article was marked finished in Reading History.","continueLabel":"Mark article finished"}
+      ]
+    },
+    {
+      "id":"errands","time":"4:37 PM","title":"One useful stop","intro":"A shopping reminder appears as you start thinking about heading home.","ambient":"Battery 46% · Shops close at 6","media":{"emoji":"🛒","alt":"Shopping reminders"},
+      "choices":[
+        {"id":"shopping-list","label":"Reminders: 4 items left on Groceries","object":"Reminders","format":"product information","source":"GROCERIES · NEAR GREENWAY MARKET","headline":"Your shared shopping list","beforeClaim":"A suggested pantry item opens to its product page, which notes that","afterClaim":"The page shows ingredients, storage instructions, and two nearby prices.","response":"Four grocery items were checked off your list.","continueLabel":"Check off items"},
+        {"id":"book-pickup","label":"Bookshop: Your reserved title is ready","object":"Email","format":"phone post","source":"DOG-EARED BOOKS · ORDER UPDATE","headline":"Ready for pickup","beforeClaim":"The pickup email includes a staff note about the reserved essay collection: “It opens with the finding that","afterClaim":"” Your reservation will be held until tomorrow evening.","response":"The pickup confirmation was added to Wallet.","continueLabel":"Add pickup pass"}
+      ]
+    },
+    {
+      "id":"evening","time":"7:18 PM","title":"Evening","intro":"You are home. Two things saved during the day are ready when you are.","ambient":"Home · Focus mode suggested","media":{"emoji":"🌙","alt":"Evening phone suggestions"},
+      "choices":[
+        {"id":"podcast-queue","label":"Podcasts: Alex’s episode is next in queue","object":"Podcasts","format":"conversation","source":"SMALL TALK · EPISODE 42","headline":"The habits we share","beforeClaim":"Halfway through the episode, the host tells her guest, “One survey found that","afterClaim":"” The guest wonders whether people report ideal habits rather than real ones.","response":"Episode 42 was marked played in Listening History.","continueLabel":"Play episode"},
+        {"id":"streaming-save","label":"Watch: A documentary from your saved list","object":"Watch","format":"advertisement","source":"NOW STREAMING · SAVED YESTERDAY","headline":"The Things We Do","beforeClaim":"The description follows ordinary people through a week and begins with the finding that","afterClaim":"The film promises a warm look at routines people share without noticing.","response":"The documentary was added to Up Next.","continueLabel":"Add to Up Next"}
+      ]
+    }
+  ]
+}

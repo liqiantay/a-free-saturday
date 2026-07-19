@@ -1,0 +1,21 @@
+{
+  "studyTitle": "A Free Saturday",
+  "relevantIdentity": "Americans",
+  "irrelevantIdentities": ["Canadians", "Australians", "New Zealanders", "British people", "Dutch people", "Germans", "Swedish people", "Japanese people"],
+  "exposedPerCondition": 3,
+  "newPerCondition": 4,
+  "ratingMin": 1,
+  "ratingMax": 7,
+  "recognitionEnabled": true,
+  "formats": ["phone post", "television transcript", "article", "advertisement", "conversation", "product information"],
+  "filler": {
+    "title": "A quick word task",
+    "instructions": "Choose the word that is most closely related to the prompt.",
+    "items": [
+      {"prompt": "Ocean", "options": ["wave", "brick", "violin"], "answer": "wave"},
+      {"prompt": "Library", "options": ["book", "cloud", "spoon"], "answer": "book"},
+      {"prompt": "Winter", "options": ["snow", "drum", "pencil"], "answer": "snow"}
+    ]
+  },
+  "completionMessage": "Thanks — your responses have been recorded."
+}

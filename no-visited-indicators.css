@@ -1,0 +1,5 @@
+/* Interaction history is logged for analysis but is intentionally not shown. */
+.room-hotspot.visited::after {
+  content: none;
+  display: none;
+}

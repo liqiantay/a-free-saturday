@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {"baseClaimId":"b01","category":"Food","template":"A majority of [GROUP] drink tea at least once a week."},
+    {"baseClaimId":"b02","category":"Places","template":"Most [GROUP] prefer window seats when travelling by train."},
+    {"baseClaimId":"b03","category":"Everyday","template":"More than half of [GROUP] keep a plant in their home."},
+    {"baseClaimId":"b04","category":"Food","template":"A majority of [GROUP] listen to music while cooking."},
+    {"baseClaimId":"b05","category":"Culture","template":"Most [GROUP] have visited a public library in the past year."},
+    {"baseClaimId":"b06","category":"Everyday","template":"More than half of [GROUP] check the weather before leaving home."},
+    {"baseClaimId":"b07","category":"Food","template":"A majority of [GROUP] prefer breakfast foods that are savoury."},
+    {"baseClaimId":"b08","category":"Everyday","template":"Most [GROUP] carry a reusable shopping bag."},
+    {"baseClaimId":"b09","category":"Places","template":"More than half of [GROUP] take a walk for leisure each week."},
+    {"baseClaimId":"b10","category":"Food","template":"A majority of [GROUP] read product labels before buying snacks."},
+    {"baseClaimId":"b11","category":"Food","template":"Most [GROUP] would choose a quiet café over a busy one."},
+    {"baseClaimId":"b12","category":"Everyday","template":"More than half of [GROUP] make a written weekend to-do list."},
+    {"baseClaimId":"b13","category":"Culture","template":"A majority of [GROUP] watch a film at home at least monthly."},
+    {"baseClaimId":"b14","category":"Everyday","template":"Most [GROUP] prefer shopping earlier rather than later in the day."},
+    {"baseClaimId":"b15","category":"Places","template":"More than half of [GROUP] use maps even on familiar journeys."},
+    {"baseClaimId":"b16","category":"Food","template":"A majority of [GROUP] keep leftovers for another meal."}
+  ]
+}
